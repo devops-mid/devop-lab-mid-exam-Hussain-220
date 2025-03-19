@@ -9,6 +9,7 @@ services:
       - postgres
     environment:
       - DATABASE_URL=postgresql://user:password@postgres:5432/mydb
+      - SECRET_KEY=your-secret-key-2022220
 
   postgres:
     image: postgres:13
