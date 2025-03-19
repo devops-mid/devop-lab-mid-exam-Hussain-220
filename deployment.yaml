@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: your-roll-number/web-app:latest
+        image: hussainahmad01/2022220:latest  # ✅ Updated Image
         ports:
         - containerPort: 5000
         env:
